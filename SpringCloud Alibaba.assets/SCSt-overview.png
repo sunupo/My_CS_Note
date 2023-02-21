@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.10">
+<meta name="author" content="Sabby Anandan, Marius Bogoevici, Eric Bottard, Mark Fisher, Ilayaperumal Gopinathan, Mark Heckler, Gunnar Hillert, Mark Pollack, Patrick Peralta, Glenn Renfro, Thomas Risberg, Dave Syer, David Turanski, Janne Valkealahti, Benjamin Klein, Vinicius Carvalho, Gary Russell, Oleg Zhurakousky, Jay Bryant, Soby Chacko, Domenico Sibilio">
+<title>Spring Cloud Stream Reference Documentation</title>
+<link rel="stylesheet" href="css/site.css">
+<script src="js/setup.js"></script><script defer src="js/site.js"></script>
+
+</head>
+<body class="book"><div id="banner-container" class="container" role="banner">
+  <div id="banner" class="contained" role="banner">
+    <div id="switch-theme">
+      <input type="checkbox" id="switch-theme-checkbox"/>
+      <label for="switch-theme-checkbox">Dark Theme</label>
+    </div>
+  </div>
+</div>
+<div id="tocbar-container" class="container" role="navigation">
+  <div id="tocbar" class="contained" role="navigation">
+    <button id="toggle-toc"></button>
+  </div>
+</div>
+<div id="main-container" class="container">
+  <div id="main" class="contained">
+    <div id="doc" class="doc">
+<div id="header">
+<h1>Spring Cloud Stream Reference Documentation</h1>
+<div class="details">
+<span id="author" class="author">Sabby Anandan</span><br>
+<span id="author2" class="author">Marius Bogoevici</span><br>
+<span id="author3" class="author">Eric Bottard</span><br>
+<span id="author4" class="author">Mark Fisher</span><br>
+<span id="author5" class="author">Ilayaperumal Gopinathan</span><br>
+<span id="author6" class="author">Mark Heckler</span><br>
+<span id="author7" class="author">Gunnar Hillert</span><br>
+<span id="author8" class="author">Mark Pollack</span><br>
+<span id="author9" class="author">Patrick Peralta</span><br>
+<span id="author10" class="author">Glenn Renfro</span><br>
+<span id="author11" class="author">Thomas Risberg</span><br>
+<span id="author12" class="author">Dave Syer</span><br>
+<span id="author13" class="author">David Turanski</span><br>
+<span id="author14" class="author">Janne Valkealahti</span><br>
+<span id="author15" class="author">Benjamin Klein</span><br>
+<span id="author16" class="author">Vinicius Carvalho</span><br>
+<span id="author17" class="author">Gary Russell</span><br>
+<span id="author18" class="author">Oleg Zhurakousky</span><br>
+<span id="author19" class="author">Jay Bryant</span><br>
+<span id="author20" class="author">Soby Chacko</span><br>
+<span id="author21" class="author">Domenico Sibilio</span><br>
+</div>
+</div>
+<div id="content">
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p><strong>4.0.1</strong></p>
+</div>
+<div class="paragraph">
+<p>The reference documentation consists of the following sections:</p>
+</div>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<a href="spring-cloud-stream.html#spring-cloud-stream-reference">Overview</a> 
+</td>
+<td class="hdlist2">
+<p>History, Quick Start, Concepts, Architecture Overview, Binder Abstraction, and Core Features</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="spring-cloud-stream-binder-rabbit.html#spring-cloud-stream-binder-rabbit-reference">Rabbit MQ Binder</a> 
+</td>
+<td class="hdlist2">
+<p>Spring Cloud Stream binder reference for Rabbit MQ</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="spring-cloud-stream-binder-kafka.html#_apache_kafka_binder">Apache Kafka Binder</a> 
+</td>
+<td class="hdlist2">
+<p>Spring Cloud Stream binder reference for Apache Kafka</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="spring-cloud-stream-binder-kafka.html#_kafka_streams_binder">Apache Kafka Streams binder</a> 
+</td>
+<td class="hdlist2">
+<p>Spring Cloud Stream binder reference for Apache Kafka Streams</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="binders.html#binders">Additional Binders</a> 
+</td>
+<td class="hdlist2">
+<p>A collection of Partner maintained binder implementations for Spring Cloud Stream (e.g., Azure Event Hubs, Google PubSub, Solace PubSub+)</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="spring-cloud-stream-schema-registry.html#spring-cloud-stream-schema-registry-reference">Schema Registry</a> 
+</td>
+<td class="hdlist2">
+<p>Spring Cloud Stream Schema Registry Reference</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://github.com/spring-cloud/spring-cloud-stream-samples/">Spring Cloud Stream Samples</a>  
+</td>
+<td class="hdlist2">
+<p>A curated collection of repeatable Spring Cloud Stream samples to walk through the features</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>Relevant Links:</p>
+</div>
+<div class="hdlist">
+<table>
+<tr>
+<td class="hdlist1">
+<a href="https://cloud.spring.io/spring-cloud-dataflow/">Spring Cloud Data Flow</a> 
+</td>
+<td class="hdlist2">
+<p>Spring Cloud Data Flow</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="http://www.enterpriseintegrationpatterns.com/">Enterprise Integration Patterns</a>  
+</td>
+<td class="hdlist2">
+<p>Patterns and Best Practices for Enterprise Integration</p>
+</td>
+</tr>
+<tr>
+<td class="hdlist1">
+<a href="https://spring.io/projects/spring-integration">Spring Integration</a>  
+</td>
+<td class="hdlist2">
+<p>Spring Integration framework</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+<script src="js/highlight/highlight.min.js"></script>
+<script>hljs.initHighlighting()</script>
+</div>
+  </div>
+</div>
+<script>if (window.parent == window) {(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-2728886-23', 'auto', {'siteSpeedSampleRate': 100});ga('send', 'pageview');}</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/vaafb692b2aea4879b33c060e79fe94621666317369993" integrity="sha512-0ahDYl866UMhKuYcW078ScMalXqtFJggm7TmlUtp0UlD4eQk0Ixfnm5ykXKvGJNFjLMoortdseTfsRT8oCfgGA==" data-cf-beacon='{"rayId":"79c3a3717ee09663","token":"bffcb8a918ae4755926f76178bfbd26b","version":"2023.2.0","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
